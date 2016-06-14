@@ -4,7 +4,7 @@ export PS1="\h-\u @ \w $ "
 export PATH=$PATH:/usr/local/go/bin
 
 # set GOPATH
-export GOPATH=$HOME/workspace
+export GOPATH=$HOME/workspace/go
 
 alias ls="ls -GFlh"
 alias la="ls -a"
