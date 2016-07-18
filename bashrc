@@ -16,6 +16,5 @@ export PATH=$PATH:/usr/local/m-cli
 alias ls="ls -GFlh"
 alias la="ls -a"
 alias ws="cd ~/workspace/"
-alias ws go="cd $GOPATH"
 alias ..="cd .."
-alias ...="cd ../.."g
+alias ...="cd ../.."
