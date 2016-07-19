@@ -9,6 +9,7 @@ export GOPATH=$HOME/workspace/go
 # set GOBIN
 export GOBIN=$GOPATH/bin
 # add GOPATH, GOBIN to PATH
+export PATH=$GOPATH
 export PATH=$PATH:$GOBIN
 # add m-cli to PATH
 export PATH=$PATH:/usr/local/m-cli
