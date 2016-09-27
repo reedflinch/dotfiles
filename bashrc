@@ -1,6 +1,5 @@
 cal
 date
-brew update
 
 . /etc/profile
 
