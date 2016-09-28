@@ -21,11 +21,12 @@ export PATH=$PATH:/usr/local/m-cli
 
 alias ls="ls -GFlh"
 alias la="ls -a"
-alias ws="cd ~/workspace/"
-alias gows="cd $GOPATH"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias mkdir="mkdir -p"
+alias ws="cd ~/workspace/"
+alias gows="cd $GOPATH"
+alias kusty="cd ~/workspace/kustomer"
 
 source /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh
