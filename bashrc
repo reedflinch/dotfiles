@@ -3,6 +3,8 @@ date
 
 . /etc/profile
 
+ssh-add ~/.ssh/id_rsa
+
 export PS1="🔰  \[\033[38;5;43m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\] | \[$(tput sgr0)\]\[\033[38;5;228m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] @ \[$(tput sgr0)\]\[\033[38;5;178m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\] \$(__git_ps1)\n\@\[$(tput sgr0)\] $ "
 
 export PATH=$PATH:/usr/local/sbin
