@@ -26,9 +26,10 @@ alias la="ls -a"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+alias .....="cd ../../../.."
 alias mkdir="mkdir -p"
 alias ws="cd ~/workspace/"
 alias gows="cd $GOPATH"
-alias kusty="cd ~/workspace/kustomer"
+alias kusty="cd ~/workspace/kustomer/development"
 
 source /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh
